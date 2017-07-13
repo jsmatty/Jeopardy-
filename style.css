@@ -4,6 +4,11 @@ table {
     background-color: black;
 }
 
-#btn btn-success {
-    color: red;
+#number-buttons {
+    column-rule-color: red;
+}
+
+body {
+    display: flex;
+    align-content: center;
 }
