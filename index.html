@@ -5,57 +5,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>Jeopardy</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 </head>
 
+
 <body>
-    <table id="number-buttons">
-        <tr>
-            <td><button class='btn btn-success btn-lg'>10</button></td>
-            <td class='btn btn-success btn-lg'>10</td>
-            <td class='btn btn-success btn-lg'>10</td>
-            <td class='btn btn-success btn-lg'>10</td>
-            <td class='btn btn-success btn-lg'>10</td>
-        </tr>
-        <tr>
-            <td class='btn btn-success btn-lg'>20</td>
-            <td class='btn btn-success btn-lg'>20</td>
-            <td class='btn btn-success btn-lg'>20</td>
-            <td class='btn btn-success btn-lg'>20</td>
-            <td class='btn btn-success btn-lg'>20</td>
-        </tr>
-        <tr>
-            <td class='btn btn-success btn-lg'>30</td>
-            <td class='btn btn-success btn-lg'>30</td>
-            <td class='btn btn-success btn-lg'>30</td>
-            <td class='btn btn-success btn-lg'>30</td>
-            <td class='btn btn-success btn-lg'>30</td>
-        </tr>
-        <tr>
-            <td class='btn btn-success btn-lg'>40</td>
-            <td class='btn btn-success btn-lg'>40</td>
-            <td class='btn btn-success btn-lg'>40</td>
-            <td class='btn btn-success btn-lg'>40</td>
-            <td class='btn btn-success btn-lg'>40</td>
 
-        </tr>
-        <tr>
-            <td class='btn btn-success btn-lg'>50</td>
-            <td class='btn btn-success btn-lg'>50</td>
-            <td class='btn btn-success btn-lg'>50</td>
-            <td class='btn btn-success btn-lg'>50</td>
-            <td class='btn btn-success btn-lg'>50</td>
-        </tr>
-    </table>
+    <div class="container">
+        <h2>Jeopardy</h2>
+        <p>
+            a quiz competition in which contestants are presented with general knowledge clues in the form of answers, and must phrase their responses in the form of questions.
+        </p>
+        <table class="table">
+            <thead>
+                <tr class="catTopics">
+                    <th>Category 1</th>
+                    <th>Category 2</th>
+                    <th>Category 3</th>
+                    <th>Category 4</th>
+                    <th>Category 5</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><button type="button" class="btn btn-primary">$100</button></td>
+                    <td><button type="button" class="btn btn-primary">$100</button></td>
+                    <td><button type="button" class="btn btn-primary">$100</button></td>
+                    <td><button type="button" class="btn btn-primary">$100</button></td>
+                    <td><button type="button" class="btn btn-primary">$100</button></td>
 
 
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-primary">$200</button></td>
+                    <td><button type="button" class="btn btn-primary">$200</button></td>
+                    <td><button type="button" class="btn btn-primary">$200</button></td>
+                    <td><button type="button" class="btn btn-primary">$200</button></td>
+                    <td><button type="button" class="btn btn-primary">$200</button></td>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-primary">$300</button></td>
+                    <td><button type="button" class="btn btn-primary">$300</button></td>
+                    <td><button type="button" class="btn btn-primary">$300</button></td>
+                    <td><button type="button" class="btn btn-primary">$300</button></td>
+                    <td><button type="button" class="btn btn-primary">$300</button></td>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+                </tr>
+
+                <tr>
+                    <td><button type="button" class="btn btn-primary">$400</button></td>
+                    <td><button type="button" class="btn btn-primary">$400</button></td>
+                    <td><button type="button" class="btn btn-primary">$400</button></td>
+                    <td><button type="button" class="btn btn-primary">$400</button></td>
+                    <td><button type="button" class="btn btn-primary">$400</button></td>
+                </tr>
+
+                <tr>
+                    <td><button type="button" class="btn btn-primary">$500</button></td>
+                    <td><button type="button" class="btn btn-primary">$500</button></td>
+                    <td><button type="button" class="btn btn-primary">$500</button></td>
+                    <td><button type="button" class="btn btn-primary">$500</button></td>
+                    <td><button type="button" class="btn btn-primary">$500</button></td>
+                </tr>
+
+
+            </tbody>
+        </table>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $(".myBtn").click(function() {
+                $("#myModal").modal();
+            });
+        });
+    </script>
+</body>
+
+</html>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $(".myBtn").click(function() {
+            $("#myModal").modal();
+        });
+    });
+</script>
 </body>
 
 </html>

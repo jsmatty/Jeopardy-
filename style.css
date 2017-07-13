@@ -1,14 +1,21 @@
 table {
     height: 500px;
     width: 500px;
-    background-color: black;
+    background-color: blue;
 }
 
-#number-buttons {
-    column-rule-color: red;
+#btn btn-primary {
+    color: lightcyan;
+    height: 15px;
+    width: 15px;
 }
 
 body {
     display: flex;
     align-content: center;
+}
+
+h2 {
+    text-align: center;
+    color: lightsalmon;
 }
