@@ -1,21 +1,49 @@
-table {
-    height: 500px;
-    width: 500px;
-    background-color: blue;
-}
-
-#btn btn-primary {
+#btn-large {
     color: lightcyan;
-    height: 15px;
-    width: 15px;
+    height: 30px;
+    width: 40px;
 }
 
 body {
     display: flex;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    background-color: lightcyan;
 }
 
 h2 {
     text-align: center;
     color: lightsalmon;
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: 25px;
+}
+
+#scoreBoard {
+    text-align: right;
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.buttons {
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    height: 100px;
+    width: 15%;
+    background: #6786ca;
+    text-align: center;
+    margin: 5px;
+    padding: 13px;
+    border-radius: 5px;
+    font-size: 1.25em;
+    font-weight: bold;
+    transition: 2.5s;
 }

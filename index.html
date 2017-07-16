@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
@@ -19,94 +19,56 @@
 
 <body>
 
-    <div class="container">
+    <!--<div class="container">
         <h2>Jeopardy</h2>
-        <p>
-            a quiz competition in which contestants are presented with general knowledge clues in the form of answers, and must phrase their responses in the form of questions.
-        </p>
-        <table class="table">
-            <thead>
-                <tr class="catTopics">
-                    <th>Category 1</th>
-                    <th>Category 2</th>
-                    <th>Category 3</th>
-                    <th>Category 4</th>
-                    <th>Category 5</th>
+
+        <table class="gameLayout centered">
+
+            <thead class="centered highlight">
+                <tr>
+                    <th class="categoryOne">Colors</th>
                 </tr>
             </thead>
 
-            <tbody>
+            <tbody id="buttonBoxes" class="btns">
                 <tr>
-                    <td><button type="button" class="btn btn-primary">$100</button></td>
-                    <td><button type="button" class="btn btn-primary">$100</button></td>
-                    <td><button type="button" class="btn btn-primary">$100</button></td>
-                    <td><button type="button" class="btn btn-primary">$100</button></td>
-                    <td><button type="button" class="btn btn-primary">$100</button></td>
+                    <td><button id="square0" class="btn-large">100</button></td>
+                </tr>
+                <tr>
+                    <td><button id="square1" class="btn-large">200</button></td>
 
 
                 </tr>
                 <tr>
-                    <td><button type="button" class="btn btn-primary">$200</button></td>
-                    <td><button type="button" class="btn btn-primary">$200</button></td>
-                    <td><button type="button" class="btn btn-primary">$200</button></td>
-                    <td><button type="button" class="btn btn-primary">$200</button></td>
-                    <td><button type="button" class="btn btn-primary">$200</button></td>
+                    <td><button id="square2" class="btn-large">300</button></td>
 
-                </tr>
-                <tr>
-                    <td><button type="button" class="btn btn-primary">$300</button></td>
-                    <td><button type="button" class="btn btn-primary">$300</button></td>
-                    <td><button type="button" class="btn btn-primary">$300</button></td>
-                    <td><button type="button" class="btn btn-primary">$300</button></td>
-                    <td><button type="button" class="btn btn-primary">$300</button></td>
 
                 </tr>
 
                 <tr>
-                    <td><button type="button" class="btn btn-primary">$400</button></td>
-                    <td><button type="button" class="btn btn-primary">$400</button></td>
-                    <td><button type="button" class="btn btn-primary">$400</button></td>
-                    <td><button type="button" class="btn btn-primary">$400</button></td>
-                    <td><button type="button" class="btn btn-primary">$400</button></td>
+                    <td><button id="square3" class="btn-large">400</button></td>
+
                 </tr>
 
                 <tr>
-                    <td><button type="button" class="btn btn-primary">$500</button></td>
-                    <td><button type="button" class="btn btn-primary">$500</button></td>
-                    <td><button type="button" class="btn btn-primary">$500</button></td>
-                    <td><button type="button" class="btn btn-primary">$500</button></td>
-                    <td><button type="button" class="btn btn-primary">$500</button></td>
+                    <td><button id="square4" class="btn-large">500</button></td>
+
                 </tr>
 
 
             </tbody>
         </table>
+    </div>-->
+
+
+    <div id="playerScore">Score: 0
     </div>
-    <script>
-        $(document).ready(function() {
-            $(".myBtn").click(function() {
-                $("#myModal").modal();
-            });
-        });
-    </script>
-</body>
 
-</html>
+    <!--<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>-->
+    <script src="script.js"></script>
 
 
 
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="js/materialize.min.js"></script>
-
-<script>
-    $(document).ready(function() {
-        $(".myBtn").click(function() {
-            $("#myModal").modal();
-        });
-    });
-</script>
 </body>
 
 </html>
