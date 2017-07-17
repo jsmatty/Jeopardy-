@@ -19,7 +19,7 @@ var gameComponents = [{
         value: 100,
     },
     {
-        question: "what is the first name of the character Bowie played in Martin Scorsese's The Last Temptation of Christ?\n\n a) Pontius \n b) Jareth \n c) Phillip d) Batman ",
+        question: "what is the first name of the character Bowie played in Martin Scorsese's The Last Temptation of Christ?\n\n a) Pontius \n b) Jareth \n c) Phillip \n d) Batman ",
         answer: "a",
         value: 200,
     },
