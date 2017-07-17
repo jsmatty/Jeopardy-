@@ -15,7 +15,8 @@ Materialize (http://materializecss.com/)
 
 [Trello Board](https://trello.com/b/M2iAbvqY/jeopardy)
 
-# [Wireframes](http://imgur.com/a/iHgXM)
+# Wireframe
+(http://imgur.com/a/iHgXM)
 
 # Future Goals
 My future goal for this game would be to add more categories and columns. The game could use more CSS styling. 
