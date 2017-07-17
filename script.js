@@ -7,29 +7,29 @@ function updateScore() {
 
 
 //first create the array of objects
-console.log("mic check");
+console.log("test test test");
 var gameComponents = [{
-        question: "What color is Kermit the frog?",
-        answer: "green",
+        question: "who co-wrote the 1975 single Fame with Bowie??\n\n a)Elton John \n b) John Lennon \n c) Paul McCartney \n d) Freddie Mercury ",
+        answer: "b",
         value: 100
     },
     {
-        question: "What color is a lemon?",
-        answer: "yellow",
+        question: "what is the first name of the character Bowie played in Martin Scorsese's The Last Temptation of Christ?\n\n a) Pontius \n b) Jareth \n c) Phillip d) Batman ",
+        answer: "a",
         value: 200,
     },
     {
-        question: "What color is ketchup?",
-        answer: "red",
+        question: "Bowie shares the same birthday as what other famous musician?\n\n a) Elvis \n b) Billy Idol \n c) Frank Sinatra \n d) L.L. Cool J ",
+        answer: "a",
         value: 300,
     },
     {
-        question: "What color are carrots?",
-        answer: "orange",
+        question: "What Bowie song was used by the BBC in it's coverage of the moon landing?\n\n a) Life on Mars \n b) Starman \n c) Rebel Rebel d) Space Oddity ",
+        answer: "d",
         value: 400,
     },
     {
-        question: "what is the PBR logo?",
+        question: "This fictional character has appeared in three Bowie hits- Space Oddity, Ashes To Ashes, and Hallo Spaceboy? \n\n a) Officer Johnny \n b) Ziggy Stardust \n c) Major Tom \n d) Sgt. Pepper ",
         answer: "blue",
         value: 500,
     },
@@ -50,7 +50,7 @@ for (var i = 0; i < gameComponents.length; i++) {
 
 $('.buttons').click(function() {
     //when you click a box display a prompt with the corresponding question
-    var userInput = prompt(this.getAttribute('question'));
+    var userInput = prompt(this.getAttribute('question'), "Type in letter");
     var anyAnswer = userInput.toLowerCase();
     var points = this.getAttribute('value');
     $(this).css({ 'background': 'gray' });
