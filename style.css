@@ -4,7 +4,7 @@ body {
     justify-content: center;
     flex-direction: column;
     margin: auto;
-    background-color: lightcyan;
+    background-color: rgba(236, 124, 15, 0.69);
 }
 
 .buttons {
@@ -13,16 +13,17 @@ body {
     justify-content: center;
     height: 100px;
     width: 15%;
-    background: #6786ca;
+    background: #54d1e4;
     text-align: center;
-    margin: 5px;
+    margin: 4px;
     padding: 13px;
     border-radius: 5px;
-    font-size: 40px;
+    font-size: 10px;
     font-weight: bold;
     transition: 2.5s;
     font-size: -webkit-xxx-large;
     color: yellow;
+    border: 4px solid white
 }
 
 header {
