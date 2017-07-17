@@ -35,7 +35,7 @@ var gameComponents = [{
     },
     {
         question: "This fictional character has appeared in three Bowie hits- Space Oddity, Ashes To Ashes, and Hallo Spaceboy? \n\n a) Officer Johnny \n b) Ziggy Stardust \n c) Major Tom \n d) Sgt. Pepper ",
-        answer: "blue",
+        answer: "c",
         value: 500,
     },
 
