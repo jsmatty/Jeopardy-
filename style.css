@@ -18,9 +18,11 @@ body {
     margin: 5px;
     padding: 13px;
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 40px;
     font-weight: bold;
     transition: 2.5s;
+    font-size: -webkit-xxx-large;
+    color: yellow;
 }
 
 header {
@@ -38,8 +40,9 @@ header {
     color: gray;
 }
 
-#game-container {
+
+/*#game-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+}*/
