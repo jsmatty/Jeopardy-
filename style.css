@@ -1,49 +1,58 @@
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: auto;
-    background-color: rgba(236, 124, 15, 0.69);
-}
-
-.buttons {
-    display: inline-block;
-    align-content: center;
-    justify-content: center;
-    height: 100px;
-    width: 15%;
-    background: #54d1e4;
-    text-align: center;
-    margin: 4px;
-    padding: 13px;
-    border-radius: 5px;
-    font-size: 10px;
-    font-weight: bold;
-    transition: 2.5s;
-    font-size: -webkit-xxx-large;
-    color: yellow;
-    border: 4px solid white
-}
-
-header {
-    background-color: #46b070;
-    font-size: 70px;
-    text-shadow: 1px 1px #BDFCC9;
-    display: block;
-    text-align: center;
-    margin: 30px auto;
-    width: 100%;
-}
-
-#categoryName {
-    font-size: 30px;
-    color: gray;
-}
-
-
-/*#game-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}*/
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: auto;
+            background-color: rgba(236, 124, 15, 0.69);
+        }
+        
+        .buttons {
+            display: inline-block;
+            align-content: center;
+            justify-content: center;
+            height: 100px;
+            width: 15%;
+            background: #54d1e4;
+            text-align: center;
+            margin: 4px;
+            padding: 13px;
+            border-radius: 5px;
+            font-size: 10px;
+            font-weight: bold;
+            transition: 2.5s;
+            font-size: -webkit-xxx-large;
+            color: yellow;
+            border: 4px solid white
+        }
+        
+        header {
+            background-color: #54d1e4;
+            height: 140px;
+            display: block;
+            text-align: center;
+            margin: auto 0;
+            width: 100%;
+            border: 5px solid white;
+        }
+        
+        #categoryName {
+            font-size: 30px;
+            color: #f5f5f5;
+            text-align: center;
+            padding-right: 10px;
+            padding-left: 10px;
+            font-size: xx-large;
+            font-weight: bolder;
+            padding-top: 5px;
+            padding-bottomn: 10px;
+            border: 5px solid #f5f5f5;
+        }
+        
+        h1 {
+            font-family: 'Asset', cursive;
+            font-size: 61pxpx;
+            color: white;
+            letter-spacing: 5px;
+            text-align: center
+        }
