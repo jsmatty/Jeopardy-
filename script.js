@@ -29,7 +29,7 @@ var gameComponents = [{
         value: 300,
     },
     {
-        question: "What Bowie song was used by the BBC in it's coverage of the moon landing?\n\n a) Life on Mars \n b) Starman \n c) Rebel Rebel d) Space Oddity ",
+        question: "What Bowie song was used by the BBC in it's coverage of the moon landing?\n\n a) Life on Mars \n b) Starman \n c) Rebel Rebel \n d) Space Oddity ",
         answer: "d",
         value: 400,
     },
