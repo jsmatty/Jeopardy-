@@ -1,9 +1,3 @@
-#btn-large {
-    color: lightcyan;
-    height: 30px;
-    width: 40px;
-}
-
 body {
     display: flex;
     align-items: center;
@@ -11,25 +5,6 @@ body {
     flex-direction: column;
     margin: auto;
     background-color: lightcyan;
-}
-
-h2 {
-    text-align: center;
-    color: lightsalmon;
-    font-size: 40px;
-}
-
-p {
-    text-align: center;
-    color: darkgoldenrod;
-    font-size: 25px;
-}
-
-#scoreBoard {
-    text-align: right;
-    color: black;
-    font-size: 20px;
-    text-decoration: underline;
 }
 
 .buttons {
@@ -43,7 +18,28 @@ p {
     margin: 5px;
     padding: 13px;
     border-radius: 5px;
-    font-size: 1.25em;
+    font-size: 10px;
     font-weight: bold;
     transition: 2.5s;
+}
+
+header {
+    background-color: #46b070;
+    font-size: 70px;
+    text-shadow: 1px 1px #BDFCC9;
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    width: 100%;
+}
+
+#categoryName {
+    font-size: 30px;
+    color: gray;
+}
+
+#game-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
