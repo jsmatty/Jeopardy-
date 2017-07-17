@@ -56,3 +56,12 @@
             letter-spacing: 5px;
             text-align: center
         }
+        
+        h2 {
+            font-family: 'Poiret One', cursive;
+            font-size: 30px;
+            text-align: center;
+            letter-spacing: 5px;
+            font-weight: bolder;
+            text-decoration: underline;
+        }
